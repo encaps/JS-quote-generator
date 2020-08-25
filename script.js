@@ -7,14 +7,16 @@ const loader = document.getElementById('loader');
 
 // Show loading
 function loading() {
-    loader.hidden = false
-    quoteContainer.hidden = true
+    loader.hidden = false;
+    quoteText.hidden = true;
+    quoteAuthor.hidden = true;
 }
 
 // Hide loading
 function complete() {
-    loader.hidden = true
-    quoteContainer.hidden = false
+    loader.hidden = true;
+    quoteText.hidden = false;
+    quoteAuthor.hidden = false;
 }
 
 // Get Quote from API
